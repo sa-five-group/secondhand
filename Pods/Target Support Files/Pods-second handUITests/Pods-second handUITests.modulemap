@@ -1,0 +1,6 @@
+framework module Pods_second_handUITests {
+  umbrella header "Pods-second handUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

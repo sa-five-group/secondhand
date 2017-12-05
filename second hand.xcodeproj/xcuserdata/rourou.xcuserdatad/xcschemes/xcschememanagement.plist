@@ -7,7 +7,25 @@
 		<key>second hand.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C0BB44641FCE5DB100EF7BF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0BB44781FCE5DB100EF7BF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0BB44831FCE5DB200EF7BF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

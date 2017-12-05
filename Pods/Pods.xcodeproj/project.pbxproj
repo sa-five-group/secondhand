@@ -1,0 +1,896 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050A6BBEAD28552BD9B4BB4DCA4DDA80 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E63D044812E3765F6EDA42828A72C4 /* YoshikoTextField.swift */; };
+		188D8BE7B71E11CA280AD5A05302ABE3 /* Pods-second handTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44AC619238897C85274EFE791A7544AB /* Pods-second handTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35C06F90B89885E51C910D62DF67C288 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D364D5FF41B3CE8F6D0228FB598EC67 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F0A3F436C668C677A45585377C0FBB7 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4B423B2A9D22E359C9E3CB872549A /* JiroTextField.swift */; };
+		3F1F68492E0C2833C24CC110C2C2CA90 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9133FAE39EB1D9892F29355AB69358DC /* MinoruTextField.swift */; };
+		45EF9C9D2C49859E6368E41BFB2EBF16 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E1C478C66613314778A9E914076019 /* HoshiTextField.swift */; };
+		4A2E89E5F5A6943C250552FFA971D2A2 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6472965B50FB550F1E374D7B33A9D5F /* IsaoTextField.swift */; };
+		4AF6FC9E4D3B3ABFD5A0E396F24309CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7A09FF8AA8BCFFBE3CDB0827E869241F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		90C4B0E7ABFC015D2F146D7F9499ADCC /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2C3490F5194C7714570F38D6D2E481 /* TextFieldEffects.swift */; };
+		A5672E737D4E6B6FED05CE8C7C1E93CC /* Pods-second handUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19EEE27F1C548FBBAADA18D57C2D237F /* Pods-second handUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9C2AE8AF77664E1158622B7DF3F32E4 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38565F6B1DC573225643D9F2A7505D1A /* KaedeTextField.swift */; };
+		B642BB91098D2BD388555872D33A6409 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C13156D30D470663AD8E2F0122EFC96 /* MadokaTextField.swift */; };
+		C593F0CE4ED1667A5D8C666C82EBE2BB /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8131792BBEE6A90CF9918BAC65034066 /* AkiraTextField.swift */; };
+		D1DADE9AB94C638A30FDD073C57B2C18 /* Pods-second handUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41ABE7E8044E307DD3D0746029A71D /* Pods-second handUITests-dummy.m */; };
+		D34CC01EAE5844BBFF37193354318D1E /* Pods-second hand-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB15FAB548B7682DC7809BF6EE64FE3 /* Pods-second hand-dummy.m */; };
+		D850DC8C123FE57AEBB04CF9C74E15DA /* Pods-second hand-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F4597D217F82B4CE2BCE6C8625D76 /* Pods-second hand-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE9683835BBF6FE540912A31357A88AF /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21059C29D49087D301FA139D8726F631 /* YokoTextField.swift */; };
+		E30D24E9F0B91ACE8BCA69F2CC2CC043 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E52159F3B7E7872431231E8CEDACECDD /* Pods-second handTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9621CCBF7146E2C0DFF6E8B4975822 /* Pods-second handTests-dummy.m */; };
+		ED3C958039BD26118D6098FE83A7EF90 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 008C803C59120436A273DB50612CEC78 /* TextFieldEffects-dummy.m */; };
+		EEF7FF16AC96955D472368153BF405DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B367129B6D08F467BA803C73090C966A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C97C9D1E6E62259F39DCBF2E8D1A3B35;
+			remoteInfo = TextFieldEffects;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008C803C59120436A273DB50612CEC78 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		00F1F9CE9EA889CEC058493D043FF21C /* Pods-second handUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-second handUITests.release.xcconfig"; sourceTree = "<group>"; };
+		19EEE27F1C548FBBAADA18D57C2D237F /* Pods-second handUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-second handUITests-umbrella.h"; sourceTree = "<group>"; };
+		1B5A756F50AF6ACAD18FF7ECE82AE355 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2054072A44B7D9A5A7A7681BB2005D3D /* Pods-second handUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-second handUITests-frameworks.sh"; sourceTree = "<group>"; };
+		21059C29D49087D301FA139D8726F631 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		2AB15FAB548B7682DC7809BF6EE64FE3 /* Pods-second hand-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-second hand-dummy.m"; sourceTree = "<group>"; };
+		30373F94B2C4D57A9734784A0304B11B /* Pods-second handUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-second handUITests-resources.sh"; sourceTree = "<group>"; };
+		38565F6B1DC573225643D9F2A7505D1A /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		3A9621CCBF7146E2C0DFF6E8B4975822 /* Pods-second handTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-second handTests-dummy.m"; sourceTree = "<group>"; };
+		3B5F83A33A298A05460845968F60A0E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44AC619238897C85274EFE791A7544AB /* Pods-second handTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-second handTests-umbrella.h"; sourceTree = "<group>"; };
+		44E1C478C66613314778A9E914076019 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		4B3BE5335547CFE3F5B6D12C555055C6 /* Pods-second handUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-second handUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C77834A2492D4EAF4CAF82AF091B621 /* Pods-second handTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-second handTests.release.xcconfig"; sourceTree = "<group>"; };
+		4D364D5FF41B3CE8F6D0228FB598EC67 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		4E0CDDA02993B3970BF76DDA3CE258E8 /* Pods-second handTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-second handTests-frameworks.sh"; sourceTree = "<group>"; };
+		4EC4B423B2A9D22E359C9E3CB872549A /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7053563D0305556F5934B7C65CF699A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		738A64270EA135190C254CDC20A1C226 /* Pods-second handTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-second handTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7953A07CEF172EBC0EE2E77CBEF7FF84 /* Pods-second handTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-second handTests.modulemap"; sourceTree = "<group>"; };
+		806E866C8906CF97A0F2102090265347 /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		80A56D83DF28F69CE17D9C86AAECFF4A /* Pods_second_handUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_second_handUITests.framework; path = "Pods-second handUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8131792BBEE6A90CF9918BAC65034066 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		81E42C6239C504A37A9B522AE53A2F3E /* Pods-second hand.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-second hand.release.xcconfig"; sourceTree = "<group>"; };
+		82B8139475C5A08863EF6635210DB762 /* Pods-second hand-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-second hand-acknowledgements.plist"; sourceTree = "<group>"; };
+		86E63D044812E3765F6EDA42828A72C4 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		893C79FBCD62752F57DEBC77BAB4048D /* Pods-second hand-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-second hand-resources.sh"; sourceTree = "<group>"; };
+		8C13156D30D470663AD8E2F0122EFC96 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		8D46AFD27B79B6B2E9601BB947014B18 /* Pods-second handUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-second handUITests.modulemap"; sourceTree = "<group>"; };
+		8F98A9C6ECA2322A5BAF5C0BF2F52F9A /* Pods_second_hand.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_second_hand.framework; path = "Pods-second hand.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9133FAE39EB1D9892F29355AB69358DC /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9773C24029052FBB9C88B362ECD353CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C311EFE89B2441919C4AA247FCE95EF /* Pods-second hand.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-second hand.debug.xcconfig"; sourceTree = "<group>"; };
+		9E02C9C946E587E73CEBC76713796A6F /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		A1B985645CADD42277D702523CAFDD1E /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
+		B497495737471958099823C87C83F53C /* Pods-second handTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-second handTests-resources.sh"; sourceTree = "<group>"; };
+		BC2C3490F5194C7714570F38D6D2E481 /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
+		BEAF0C4A77299FF46FD6E3A2563AFB41 /* Pods-second handTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-second handTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C192E7658787E3E899F644BEE09282A9 /* Pods-second hand.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-second hand.modulemap"; sourceTree = "<group>"; };
+		CCFF4F892ED8773C7DF66C2D407484E1 /* Pods-second hand-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-second hand-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D097D41352DE239AF720E0CAA3633240 /* Pods_second_handTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_second_handTests.framework; path = "Pods-second handTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC87E611353BF3C7BEAD369468A40E30 /* Pods-second handUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-second handUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6472965B50FB550F1E374D7B33A9D5F /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		EA41ABE7E8044E307DD3D0746029A71D /* Pods-second handUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-second handUITests-dummy.m"; sourceTree = "<group>"; };
+		EA570CCC3A88EDF23C86175EF0335727 /* Pods-second handUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-second handUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EAA4561F2560B2E9C511447237F9C3EE /* Pods-second hand-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-second hand-frameworks.sh"; sourceTree = "<group>"; };
+		EC00740EA2F2C143B15873CB6AFA90E6 /* Pods-second handTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-second handTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F09F4597D217F82B4CE2BCE6C8625D76 /* Pods-second hand-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-second hand-umbrella.h"; sourceTree = "<group>"; };
+		F75A95C732D18C0A7C634263DD6EB633 /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17C15F152A410FBC156949B6837A2011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E30D24E9F0B91ACE8BCA69F2CC2CC043 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC95590FEB408EEA1E10D81A6825B0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A09FF8AA8BCFFBE3CDB0827E869241F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B656821563A0BB090BAFF85AD9B246B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF7FF16AC96955D472368153BF405DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0EC9BCAA5F2079170DE9B340D1B6A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF6FC9E4D3B3ABFD5A0E396F24309CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0886DF59C26D74FEC40625067FDEB830 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9773C24029052FBB9C88B362ECD353CC /* Info.plist */,
+				9E02C9C946E587E73CEBC76713796A6F /* TextFieldEffects.modulemap */,
+				A1B985645CADD42277D702523CAFDD1E /* TextFieldEffects.xcconfig */,
+				008C803C59120436A273DB50612CEC78 /* TextFieldEffects-dummy.m */,
+				806E866C8906CF97A0F2102090265347 /* TextFieldEffects-prefix.pch */,
+				4D364D5FF41B3CE8F6D0228FB598EC67 /* TextFieldEffects-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		4861B37686A7A442261241C5A4DB3C4B /* Pods-second handUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B5F83A33A298A05460845968F60A0E3 /* Info.plist */,
+				8D46AFD27B79B6B2E9601BB947014B18 /* Pods-second handUITests.modulemap */,
+				EA570CCC3A88EDF23C86175EF0335727 /* Pods-second handUITests-acknowledgements.markdown */,
+				4B3BE5335547CFE3F5B6D12C555055C6 /* Pods-second handUITests-acknowledgements.plist */,
+				EA41ABE7E8044E307DD3D0746029A71D /* Pods-second handUITests-dummy.m */,
+				2054072A44B7D9A5A7A7681BB2005D3D /* Pods-second handUITests-frameworks.sh */,
+				30373F94B2C4D57A9734784A0304B11B /* Pods-second handUITests-resources.sh */,
+				19EEE27F1C548FBBAADA18D57C2D237F /* Pods-second handUITests-umbrella.h */,
+				DC87E611353BF3C7BEAD369468A40E30 /* Pods-second handUITests.debug.xcconfig */,
+				00F1F9CE9EA889CEC058493D043FF21C /* Pods-second handUITests.release.xcconfig */,
+			);
+			name = "Pods-second handUITests";
+			path = "Target Support Files/Pods-second handUITests";
+			sourceTree = "<group>";
+		};
+		55EDCE76AA05D63B893FD4328BFE3F6B /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				8131792BBEE6A90CF9918BAC65034066 /* AkiraTextField.swift */,
+				44E1C478C66613314778A9E914076019 /* HoshiTextField.swift */,
+				E6472965B50FB550F1E374D7B33A9D5F /* IsaoTextField.swift */,
+				4EC4B423B2A9D22E359C9E3CB872549A /* JiroTextField.swift */,
+				38565F6B1DC573225643D9F2A7505D1A /* KaedeTextField.swift */,
+				8C13156D30D470663AD8E2F0122EFC96 /* MadokaTextField.swift */,
+				9133FAE39EB1D9892F29355AB69358DC /* MinoruTextField.swift */,
+				BC2C3490F5194C7714570F38D6D2E481 /* TextFieldEffects.swift */,
+				21059C29D49087D301FA139D8726F631 /* YokoTextField.swift */,
+				86E63D044812E3765F6EDA42828A72C4 /* YoshikoTextField.swift */,
+				0886DF59C26D74FEC40625067FDEB830 /* Support Files */,
+			);
+			name = TextFieldEffects;
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FB9A7A6FC3D2FEAD2BDF6ABD4DDE0449 /* Pods */,
+				ECD43217706895290C6A295C3C7546DC /* Products */,
+				98B6D041D021C2DEF88AA3067A11A1DD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		98B6D041D021C2DEF88AA3067A11A1DD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6E0F2BE9E8D59813D382F5D690CADE2 /* Pods-second hand */,
+				E77D954C3900A56F7D9A7E21A5142C00 /* Pods-second handTests */,
+				4861B37686A7A442261241C5A4DB3C4B /* Pods-second handUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E77D954C3900A56F7D9A7E21A5142C00 /* Pods-second handTests */ = {
+			isa = PBXGroup;
+			children = (
+				7053563D0305556F5934B7C65CF699A6 /* Info.plist */,
+				7953A07CEF172EBC0EE2E77CBEF7FF84 /* Pods-second handTests.modulemap */,
+				EC00740EA2F2C143B15873CB6AFA90E6 /* Pods-second handTests-acknowledgements.markdown */,
+				BEAF0C4A77299FF46FD6E3A2563AFB41 /* Pods-second handTests-acknowledgements.plist */,
+				3A9621CCBF7146E2C0DFF6E8B4975822 /* Pods-second handTests-dummy.m */,
+				4E0CDDA02993B3970BF76DDA3CE258E8 /* Pods-second handTests-frameworks.sh */,
+				B497495737471958099823C87C83F53C /* Pods-second handTests-resources.sh */,
+				44AC619238897C85274EFE791A7544AB /* Pods-second handTests-umbrella.h */,
+				738A64270EA135190C254CDC20A1C226 /* Pods-second handTests.debug.xcconfig */,
+				4C77834A2492D4EAF4CAF82AF091B621 /* Pods-second handTests.release.xcconfig */,
+			);
+			name = "Pods-second handTests";
+			path = "Target Support Files/Pods-second handTests";
+			sourceTree = "<group>";
+		};
+		ECD43217706895290C6A295C3C7546DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F98A9C6ECA2322A5BAF5C0BF2F52F9A /* Pods_second_hand.framework */,
+				D097D41352DE239AF720E0CAA3633240 /* Pods_second_handTests.framework */,
+				80A56D83DF28F69CE17D9C86AAECFF4A /* Pods_second_handUITests.framework */,
+				F75A95C732D18C0A7C634263DD6EB633 /* TextFieldEffects.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6E0F2BE9E8D59813D382F5D690CADE2 /* Pods-second hand */ = {
+			isa = PBXGroup;
+			children = (
+				1B5A756F50AF6ACAD18FF7ECE82AE355 /* Info.plist */,
+				C192E7658787E3E899F644BEE09282A9 /* Pods-second hand.modulemap */,
+				CCFF4F892ED8773C7DF66C2D407484E1 /* Pods-second hand-acknowledgements.markdown */,
+				82B8139475C5A08863EF6635210DB762 /* Pods-second hand-acknowledgements.plist */,
+				2AB15FAB548B7682DC7809BF6EE64FE3 /* Pods-second hand-dummy.m */,
+				EAA4561F2560B2E9C511447237F9C3EE /* Pods-second hand-frameworks.sh */,
+				893C79FBCD62752F57DEBC77BAB4048D /* Pods-second hand-resources.sh */,
+				F09F4597D217F82B4CE2BCE6C8625D76 /* Pods-second hand-umbrella.h */,
+				9C311EFE89B2441919C4AA247FCE95EF /* Pods-second hand.debug.xcconfig */,
+				81E42C6239C504A37A9B522AE53A2F3E /* Pods-second hand.release.xcconfig */,
+			);
+			name = "Pods-second hand";
+			path = "Target Support Files/Pods-second hand";
+			sourceTree = "<group>";
+		};
+		FB9A7A6FC3D2FEAD2BDF6ABD4DDE0449 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55EDCE76AA05D63B893FD4328BFE3F6B /* TextFieldEffects */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		017F031BECECAA5DB7F6150979D5ABB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D850DC8C123FE57AEBB04CF9C74E15DA /* Pods-second hand-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12520355EE13BC8C667D79A93DA88792 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5672E737D4E6B6FED05CE8C7C1E93CC /* Pods-second handUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E334DCAB81A032FCE4789DA163FAC6C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C06F90B89885E51C910D62DF67C288 /* TextFieldEffects-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C9C60E4BDCF04E11A6BDBD88122130 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188D8BE7B71E11CA280AD5A05302ABE3 /* Pods-second handTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7568A3DECB1E4225A871E70B96EA10AE /* Pods-second handTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DC145F5217813BBDA3571FD36EE5CD9 /* Build configuration list for PBXNativeTarget "Pods-second handTests" */;
+			buildPhases = (
+				B09C9864BEFF1A9F6C0A23AB6EE90686 /* Sources */,
+				FA0EC9BCAA5F2079170DE9B340D1B6A8 /* Frameworks */,
+				E7C9C60E4BDCF04E11A6BDBD88122130 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-second handTests";
+			productName = "Pods-second handTests";
+			productReference = D097D41352DE239AF720E0CAA3633240 /* Pods_second_handTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8EB744165773861A5FFBC0ACF6E54D40 /* Pods-second hand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0359E90DD79E65C54E881ED15BB68B8 /* Build configuration list for PBXNativeTarget "Pods-second hand" */;
+			buildPhases = (
+				69871CC50EA15AC151E7CD4481C1D092 /* Sources */,
+				B656821563A0BB090BAFF85AD9B246B7 /* Frameworks */,
+				017F031BECECAA5DB7F6150979D5ABB7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				467F4B4F5A3D8ECBCD4B6FB57DFA6CF9 /* PBXTargetDependency */,
+			);
+			name = "Pods-second hand";
+			productName = "Pods-second hand";
+			productReference = 8F98A9C6ECA2322A5BAF5C0BF2F52F9A /* Pods_second_hand.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C97C9D1E6E62259F39DCBF2E8D1A3B35 /* TextFieldEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23B8FCF5E49482D3DACFF80509DCE53 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
+			buildPhases = (
+				2ED5AB29B043AA0A28F6E95FEA09A4DB /* Sources */,
+				AC95590FEB408EEA1E10D81A6825B0A3 /* Frameworks */,
+				E334DCAB81A032FCE4789DA163FAC6C8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldEffects;
+			productName = TextFieldEffects;
+			productReference = F75A95C732D18C0A7C634263DD6EB633 /* TextFieldEffects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D14A8886B2784888AE8AAD7E44622A0D /* Pods-second handUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A348FDE21F06B2EAB9931DD864F842 /* Build configuration list for PBXNativeTarget "Pods-second handUITests" */;
+			buildPhases = (
+				DAFF93F3E8241284D5090ABC93A8C009 /* Sources */,
+				17C15F152A410FBC156949B6837A2011 /* Frameworks */,
+				12520355EE13BC8C667D79A93DA88792 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-second handUITests";
+			productName = "Pods-second handUITests";
+			productReference = 80A56D83DF28F69CE17D9C86AAECFF4A /* Pods_second_handUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = ECD43217706895290C6A295C3C7546DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EB744165773861A5FFBC0ACF6E54D40 /* Pods-second hand */,
+				7568A3DECB1E4225A871E70B96EA10AE /* Pods-second handTests */,
+				D14A8886B2784888AE8AAD7E44622A0D /* Pods-second handUITests */,
+				C97C9D1E6E62259F39DCBF2E8D1A3B35 /* TextFieldEffects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ED5AB29B043AA0A28F6E95FEA09A4DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C593F0CE4ED1667A5D8C666C82EBE2BB /* AkiraTextField.swift in Sources */,
+				45EF9C9D2C49859E6368E41BFB2EBF16 /* HoshiTextField.swift in Sources */,
+				4A2E89E5F5A6943C250552FFA971D2A2 /* IsaoTextField.swift in Sources */,
+				3F0A3F436C668C677A45585377C0FBB7 /* JiroTextField.swift in Sources */,
+				A9C2AE8AF77664E1158622B7DF3F32E4 /* KaedeTextField.swift in Sources */,
+				B642BB91098D2BD388555872D33A6409 /* MadokaTextField.swift in Sources */,
+				3F1F68492E0C2833C24CC110C2C2CA90 /* MinoruTextField.swift in Sources */,
+				ED3C958039BD26118D6098FE83A7EF90 /* TextFieldEffects-dummy.m in Sources */,
+				90C4B0E7ABFC015D2F146D7F9499ADCC /* TextFieldEffects.swift in Sources */,
+				DE9683835BBF6FE540912A31357A88AF /* YokoTextField.swift in Sources */,
+				050A6BBEAD28552BD9B4BB4DCA4DDA80 /* YoshikoTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69871CC50EA15AC151E7CD4481C1D092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34CC01EAE5844BBFF37193354318D1E /* Pods-second hand-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09C9864BEFF1A9F6C0A23AB6EE90686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52159F3B7E7872431231E8CEDACECDD /* Pods-second handTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFF93F3E8241284D5090ABC93A8C009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1DADE9AB94C638A30FDD073C57B2C18 /* Pods-second handUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		467F4B4F5A3D8ECBCD4B6FB57DFA6CF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextFieldEffects;
+			target = C97C9D1E6E62259F39DCBF2E8D1A3B35 /* TextFieldEffects */;
+			targetProxy = B367129B6D08F467BA803C73090C966A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02260F33A9C237691379F452EFB3C2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 738A64270EA135190C254CDC20A1C226 /* Pods-second handTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-second handTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-second handTests/Pods-second handTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_second_handTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		09114F3263BA84F1B72FA0F4FCECE035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C77834A2492D4EAF4CAF82AF091B621 /* Pods-second handTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-second handTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-second handTests/Pods-second handTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_second_handTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1D23278938ADF334174C5BF2A4B6B1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		47201A5C4839828996508574C903A251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B985645CADD42277D702523CAFDD1E /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49ACDC88450EBBA8CD73BB5AD1DDD9B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00F1F9CE9EA889CEC058493D043FF21C /* Pods-second handUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-second handUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-second handUITests/Pods-second handUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_second_handUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E9C88DF4B4B045F61D439FEFE6109C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C311EFE89B2441919C4AA247FCE95EF /* Pods-second hand.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-second hand/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-second hand/Pods-second hand.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_second_hand;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71A7D2DF9CE9A36772F19DF7ED7F0A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81E42C6239C504A37A9B522AE53A2F3E /* Pods-second hand.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-second hand/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-second hand/Pods-second hand.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_second_hand;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B97D7473B5580E49227A7E96CB7BF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC87E611353BF3C7BEAD369468A40E30 /* Pods-second handUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-second handUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-second handUITests/Pods-second handUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_second_handUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		995C3A53DEAA96B47E756185345E180D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EF54D2A82BD61905886F6B4BF0AC4BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B985645CADD42277D702523CAFDD1E /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DC145F5217813BBDA3571FD36EE5CD9 /* Build configuration list for PBXNativeTarget "Pods-second handTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02260F33A9C237691379F452EFB3C2E2 /* Debug */,
+				09114F3263BA84F1B72FA0F4FCECE035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995C3A53DEAA96B47E756185345E180D /* Debug */,
+				1D23278938ADF334174C5BF2A4B6B1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23B8FCF5E49482D3DACFF80509DCE53 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF54D2A82BD61905886F6B4BF0AC4BCF /* Debug */,
+				47201A5C4839828996508574C903A251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0359E90DD79E65C54E881ED15BB68B8 /* Build configuration list for PBXNativeTarget "Pods-second hand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9C88DF4B4B045F61D439FEFE6109C9 /* Debug */,
+				71A7D2DF9CE9A36772F19DF7ED7F0A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A348FDE21F06B2EAB9931DD864F842 /* Build configuration list for PBXNativeTarget "Pods-second handUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B97D7473B5580E49227A7E96CB7BF28 /* Debug */,
+				49ACDC88450EBBA8CD73BB5AD1DDD9B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_second_handTests {
+  umbrella header "Pods-second handTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
