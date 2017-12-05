@@ -188,11 +188,6 @@
                                 <rect key="frame" x="163" y="222" width="48" height="24"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CG8-1R-7VC">
-                                <rect key="frame" x="40" y="459" width="295" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="註冊button"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="972-di-FdX"/>
@@ -230,6 +225,5 @@
         <image name="登入 Label" width="47" height="25"/>
         <image name="登入button" width="295" height="50"/>
         <image name="註冊 Label" width="48" height="24"/>
-        <image name="註冊button" width="295" height="50"/>
     </resources>
 </document>
