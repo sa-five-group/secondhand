@@ -189,10 +189,6 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="註冊 Label" translatesAutoresizingMaskIntoConstraints="NO" id="h3n-9J-pp3">
-                                <rect key="frame" x="163" y="222" width="48" height="24"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MBD-xZ-Vfc">
                                 <rect key="frame" x="20" y="432" width="295" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -234,7 +230,6 @@
         <image name="second Label" width="255" height="79"/>
         <image name="登入 Label" width="47" height="25"/>
         <image name="登入button" width="295" height="50"/>
-        <image name="註冊 Label" width="48" height="24"/>
         <image name="註冊button" width="295" height="50"/>
     </resources>
 </document>
