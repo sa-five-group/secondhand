@@ -108,6 +108,11 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U0V-3X-uqT">
+                                <rect key="frame" x="32" y="443" width="295" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="登入button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="BPX-cc-VNa"/>
@@ -223,6 +228,7 @@
         <image name="hand Label" width="222" height="87"/>
         <image name="second Label" width="255" height="79"/>
         <image name="登入 Label" width="47" height="25"/>
+        <image name="登入button" width="295" height="50"/>
         <image name="註冊 Label" width="48" height="24"/>
     </resources>
 </document>
