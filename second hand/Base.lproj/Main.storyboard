@@ -193,6 +193,11 @@
                                 <rect key="frame" x="163" y="222" width="48" height="24"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MBD-xZ-Vfc">
+                                <rect key="frame" x="20" y="432" width="295" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="註冊button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="972-di-FdX"/>
@@ -200,7 +205,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uJI-6i-GeE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1694" y="841"/>
+            <point key="canvasLocation" x="1693.5999999999999" y="840.62968515742136"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cge-zY-7jO">
@@ -230,5 +235,6 @@
         <image name="登入 Label" width="47" height="25"/>
         <image name="登入button" width="295" height="50"/>
         <image name="註冊 Label" width="48" height="24"/>
+        <image name="註冊button" width="295" height="50"/>
     </resources>
 </document>
