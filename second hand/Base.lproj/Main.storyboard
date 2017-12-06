@@ -194,6 +194,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="註冊button"/>
                             </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="登入 Label" translatesAutoresizingMaskIntoConstraints="NO" id="Tsh-t5-RVa">
+                                <rect key="frame" x="134" y="120" width="47" height="25"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="登入 Label" translatesAutoresizingMaskIntoConstraints="NO" id="955-2C-F04">
+                                <rect key="frame" x="226" y="158" width="47" height="25"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="登入 Label" translatesAutoresizingMaskIntoConstraints="NO" id="R3t-Ay-aL1">
+                                <rect key="frame" x="90" y="204" width="47" height="25"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="972-di-FdX"/>
