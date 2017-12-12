@@ -68,10 +68,6 @@
                                 <rect key="frame" x="49" y="106" width="326" height="455"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="登入 Label" translatesAutoresizingMaskIntoConstraints="NO" id="dbP-As-t0k">
-                                <rect key="frame" x="156" y="221" width="63" height="40"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" placeholder="請輸入學生信箱" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ke3-Mm-1TM" customClass="HoshiTextField" customModule="TextFieldEffects">
                                 <rect key="frame" x="16" y="305" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
